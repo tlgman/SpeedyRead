@@ -1,0 +1,49 @@
+
+body{
+    color: #ecf0f1;
+    background-color: #e67e22;
+}
+
+
+
+h1, h2{
+  text-align: center;
+}
+
+
+#main-button{
+    text-align: center;
+    margin-top: 125px;
+
+}
+
+#main-button a{
+    width: 500px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 3em;
+}
+
+#main-button a .material-icons{
+    font-size: 1.8em!important;
+}
+
+
+
+/* ----------------------------------------------------------------
+                            GAME PAGE
+ ------------------------------------------------------------------*/
+
+.reading-zone{
+    width: 40%;
+    min-height: 200px;
+    margin: auto;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: black;
+    font-family: Century, serif;
+    font-size: 1.5em;
+    text-align: justify;
+    background-color: #FFFFFF;
+
+}
