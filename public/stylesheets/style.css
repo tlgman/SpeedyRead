@@ -45,5 +45,35 @@ h1, h2{
     font-size: 1.5em;
     text-align: justify;
     background-color: #FFFFFF;
+}
 
+.progresstime {
+    position:relative;
+    display:block;
+    margin: 15px auto;
+    width: 40%;
+    background:#eee;
+    height:45px;
+    overflow: hidden;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+
+
+.progresstime-bar {
+    height:45px;
+    width:50px;
+    background-color: #29b6f6;
 }

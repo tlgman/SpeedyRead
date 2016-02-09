@@ -1,8 +1,11 @@
 <div class="info-frame">
-    <h2>Niveau 1</h2>
+    <h2>Niveau [{level}]</h2>
+    <div class="progresstime clearfix ">
+        <div id="timeProgress" class="progresstime-bar" ng-style="barStyle"></div>
+    </div>
 </div>
 <div id="board-game">
-    <div class="reading-zone">
+    <div ng-show="roundStart" class="reading-zone">
         Il y a un an à peu près, qu’en faisant à la Bibliothèque royale des recherches pour mon histoire de Louis XIV, je tombai par hasard sur les Mémoires de M.
     </div>
 </div>
